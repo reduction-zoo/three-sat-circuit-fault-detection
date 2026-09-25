@@ -12,10 +12,10 @@ The executable rule is [`algorithm.py`](../../work/algorithm.py) and the general
 
 Primary literature check on 2026-09-25: Ibarra–Sahni (1975), Theorem 3.4(1), treats output-fault detectability via nonconstancy, from a 3-DNF tautology formulation. The present `z` gate and recovery reconstruct the fixed 3-CNF search question. The upstream issue describes the simpler stuck-at-0 idea but does not handle required stuck-at-1 universally. This is a known hardness mechanism, not a new complexity theorem.
 
-Independent [review 001](../../reviews/001/review.md) found a legal 4,301-digit input count that caused Python's default integer conversion cap to reject the CLI input. It also found that a count-based `O(n+m)` estimate alone does not prove polynomial time when `n` is binary encoded. The reviewer retained a targeted failing check. The CLI now accepts unbounded finite decimal counts and the proof bounds gates by `6m` and bit complexity by input/output encoding lengths. The targeted check passes; the prepared and separate verification loops were rerun without changed counts. This is a same-strategy repair, so it remains round 001. Follow-up independent review is pending.
+Independent [review 001](../../reviews/001/review.md) found a legal 4,301-digit input count that caused Python's default integer conversion cap to reject the CLI input. It also found that a count-based `O(n+m)` estimate alone does not prove polynomial time when `n` is binary encoded. The reviewer retained a targeted failing check. The CLI now accepts unbounded finite decimal counts and the proof bounds gates by `6m` and bit complexity by input/output encoding lengths. The targeted check passes; the prepared and separate verification loops were rerun without changed counts. This is a same-strategy repair, so it remains round 001. Fresh-context [review 002](../../reviews/002/review.md) advanced the repaired result. The [Typst paper](../../work/manuscript.pdf) compiled to three pages and was visually inspected on 2026-09-25.
 
 Experience extraction: none; the polarity gate is part of this complete rule, and the classical output-fault characterization is cited in the proof. There is no failed search lesson to generalize.
 
 ## Next action
 
-Obtain a fresh-context registered review; repair any findings within this round unless a new strategy is required. Then write the reviewed paper.
+Round closed. Seek expert review; formalization was not requested. No second construction round is needed. Remaining budget: 19 rounds.

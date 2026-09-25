@@ -7,10 +7,10 @@ Capability probe (2026-09-25 UTC): Python 3.12.14 (`/Users/xiweipan/.local/bin/p
 
 Prepare: 115 fixed legal source cases (100 seeded random, 15 edges); Z3 source oracle and independent exhaustive target oracle; self-test passed on 2026-09-25. See [preparation](work/preparation.md). No candidate exists yet.
 
-Current claim: complete explicit reconstruction, pending independent review and paper. Correctness evidence: general proof plus 115 prepared and 123 separate verified instances; novelty: classical mechanism; significance: meets fixed reconstruction question. Uncalibrated prospects of a reviewable reconstruction within the remaining budget: high, based on the direct proof and finite checks; earlier assessment: none.
+Status: `ready_for_expert_review` (agent assessment, not human certification). Current claim: complete explicit reconstruction. Correctness evidence: general proof, 115 prepared and 123 separate verified instances, large-count CLI checks, and independent advance review 002. Novelty: classical mechanism; significance: meets fixed reconstruction question. A three-page Typst PDF was compiled and visually inspected page by page. Formalization and expert certification remain pending. Uncalibrated prospects of a reviewable reconstruction within the remaining budget: high, based on the direct proof and finite checks; earlier assessment: none.
 
-Next action: follow-up independent review of round 001 same-strategy repair.
+Next action: expert review of the reconstruction and its encoding assumptions. No new research round is needed under the fixed acceptance criteria.
 
 | Round | Mechanism / scope | First check | Outcome | Evidence |
 |---|---|---|---|---|
-| 001 | `z AND φ` as designated output | Prepared end-to-end candidate loop | Passed 115 prepared instances/201 outputs and 123 additional instances/243 outputs; review 001 revise, local repair rechecked | [round](rounds/001/round.md), [verification](work/verification.md), [review](reviews/001/review.md) |
+| 001 | `z AND φ` as designated output | Prepared end-to-end candidate loop | Complete reconstruction; review 001 revise, local repair, review 002 advance; paper inspected | [round](rounds/001/round.md), [verification](work/verification.md), [reviews](reviews/002/review.md), [paper](work/manuscript.pdf) |
