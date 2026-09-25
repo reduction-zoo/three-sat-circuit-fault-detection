@@ -49,6 +49,7 @@ def extract(source, target_solution):
 
 if __name__ == "__main__":
     try:
+        sys.set_int_max_str_digits(0)  # Legal binary-encoded counts have no fixed digit limit.
         data = json.load(sys.stdin)
         answer = extract(data["source"], data["target_solution"]) if sys.argv[1:] == ["--extract"] else construct(data)
         json.dump(answer, sys.stdout)
