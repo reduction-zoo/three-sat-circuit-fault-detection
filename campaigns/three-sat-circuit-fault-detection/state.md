@@ -9,6 +9,8 @@ Prepare: 115 fixed legal source cases (100 seeded random, 15 edges); Z3 source o
 
 Status: `ready_for_expert_review` (agent assessment, not human certification). Current claim: complete explicit reconstruction. Correctness evidence: general proof, 115 prepared and 123 separate verified instances, large-count CLI checks, and independent advance review 002. Novelty: classical mechanism; significance: meets fixed reconstruction question. A three-page Typst PDF was compiled and visually inspected page by page. Formalization and expert certification remain pending. Uncalibrated prospects of a reviewable reconstruction within the remaining budget: high, based on the direct proof and finite checks; earlier assessment: none.
 
+Research model provenance (checked for publication on 2026-09-25): the original Codex session log records `gpt-6-sol` in the research turn context at 10:55:16 UTC and the continuation at 11:48:29 UTC. The current default is also `gpt-6-sol`; the historical session contexts, rather than that default, support the attribution. The reviewer-specific backend variant was not exposed.
+
 Next action: expert review of the reconstruction and its encoding assumptions. No new research round is needed under the fixed acceptance criteria.
 
 | Round | Mechanism / scope | First check | Outcome | Evidence |
